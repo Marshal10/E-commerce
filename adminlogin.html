@@ -1,0 +1,42 @@
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+     </div>
+    <div class="center">
+        <h1>Admin Login</h1>
+        <form action="adminlogin.php" method="POST">
+            <div class="txt_field first">
+                <label>Email</label><input type="email" name="email" required><br><br>
+            </div>
+            <div class="txt_field second">
+                <label>Password </label> <input type="password" name="password" required><br><br>
+            </div>
+            <div >
+                <input type="submit" value="Login"><br><br>
+            </div>
+        </form>
+        <p class="para">Don't have an account?<a href="form.html">Register here!</a></p>
+        <p class="para"><a href="login.html">User Login</a></p>
+    </div>
+    <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+</body>
+</html>
